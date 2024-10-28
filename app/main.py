@@ -26,5 +26,4 @@ def square(e: int):
 
 @app.get("/subtract/{f}/{g}")
 def subtract(f: int, g: int):
-    return {"subtract": f - g}
-
+    return {"difference": f - g}
